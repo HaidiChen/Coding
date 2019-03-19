@@ -1,3 +1,7 @@
+% usage: 
+% 1st: swipl -s assign5.pl
+% 2nd: ?- go.
+
 % frome, over, to : describe moves
 moves(0,1,3).
 moves(0,2,5).
