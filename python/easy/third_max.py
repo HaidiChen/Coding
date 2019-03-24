@@ -36,3 +36,26 @@ def tm2(arr):
             m = max(temp)
             temp.remove(m)
         print(m)
+
+def tm3(arr):
+    if len(arr) == 1:
+        print(arr[0])
+        return
+    elif len(arr) == 2:
+        print(max(arr))
+        return
+    else:
+        m1 = m2 = m3 = 0
+        for x in arr:
+            if x == m1 or x == m2 or x == m3:
+                continue
+            elif x > m1:
+                m3 = m2
+                m2 = m1
+                m1 = x
+            elif x > m2:
+                m3 = m2
+                m2 = x
+            elif x > m3:
+                m3 = x
+        print(m3)
