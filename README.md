@@ -1,2 +1,2 @@
 # Coding
-For Practicing Coding Problems
+For Practicing Coding
