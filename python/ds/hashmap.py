@@ -1,5 +1,5 @@
 # mimic the built-in dictionary class
-from HashSet import HashSet
+from hashset import HashSet
 
 class HashMap:
     class __KVPair:
